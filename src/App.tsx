@@ -25,11 +25,12 @@ const App = () => {
     }
   return (
     <div>
-      {isLoggedIn ? (
+      <Dashboard />
+      {/* {isLoggedIn ? (
         <Dashboard />
       ) : (
         <LoginForm onLogin={handleLogin} />
-      )}
+      )} */}
     </div>
   );
 };

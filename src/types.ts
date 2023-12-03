@@ -1,4 +1,4 @@
-export type allData = {
+export type data = {
         id: number;
         name: string;
         location: string;
@@ -6,12 +6,16 @@ export type allData = {
         business_type: string;
         display_amount: boolean;
         amount: {
-          category_6: number;
-          category_7: number;
-          category_8: number;
-          category_9: number;
-          category_10: number;
+          category_6: string;
+          category_7: string;
+          category_8: string;
+          category_9: string;
+          category_10: string;
         };
 };
+
+export type allData = {
+  data : data;
+}
 
 
