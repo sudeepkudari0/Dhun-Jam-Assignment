@@ -81,7 +81,7 @@ const Dashboard = () => {
         console.log(updatedData);
         axios
             .put(`https://stg.dhunjam.in/account/admin/4`, updatedData)
-            .then((response) => {
+            .then(() => {
                 alert('Data updated successfully');
             })
             .catch((error) => {
